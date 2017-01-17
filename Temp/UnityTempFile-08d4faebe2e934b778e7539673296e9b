@@ -83,6 +83,7 @@
 'Assets/My Scripts/BulletDieBlue.cs'
 'Assets/My Scripts/BulletDieRed.cs'
 'Assets/My Scripts/CubeMovement.cs'
+'Assets/My Scripts/KillBlueSheild.cs'
 'Assets/My Scripts/Movement.cs'
 'Assets/My Scripts/MovementBlue.cs'
 'Assets/My Scripts/MovementRed.cs'

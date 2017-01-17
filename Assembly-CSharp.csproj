@@ -50,6 +50,7 @@
      <Compile Include="Assets\My Scripts\BulletDieBlue.cs" />
      <Compile Include="Assets\My Scripts\BulletDieRed.cs" />
      <Compile Include="Assets\My Scripts\CubeMovement.cs" />
+     <Compile Include="Assets\My Scripts\KillBlueSheild.cs" />
      <Compile Include="Assets\My Scripts\Movement.cs" />
      <Compile Include="Assets\My Scripts\MovementBlue.cs" />
      <Compile Include="Assets\My Scripts\MovementRed.cs" />

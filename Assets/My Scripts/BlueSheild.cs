@@ -6,7 +6,9 @@ public class BlueSheild : MonoBehaviour
 {
 	public GameObject Sheild;
 
-	private float SheildAmount;
+	public float SheildAmount;
+
+	public Transform SheildSpawn;
 
 	void Start ()
 	{
@@ -15,16 +17,17 @@ public class BlueSheild : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown(KeyCode.Q) && SheildAmount > 0);
+		if (Input.GetKeyDown(KeyCode.Q) && SheildAmount > 0)
 			{
 				SheildAmount -= 1;
 				UseSheild ();
 			}
+		return;
 	}
 
 	void UseSheild ()
 	{
-				
+		Instantiate (Sheild,SheildSpawn.position,SheildSpawn.rotation);
 	}
 
 }
