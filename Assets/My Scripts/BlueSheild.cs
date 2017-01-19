@@ -10,6 +10,10 @@ public class BlueSheild : MonoBehaviour
 
 	public Transform SheildSpawn;
 
+	public float NextSheild;
+
+	public float SheildRate;
+
 	void Start ()
 	{
 		SheildAmount = 10;
@@ -17,8 +21,9 @@ public class BlueSheild : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown(KeyCode.Q) && SheildAmount > 0)
+		if (Input.GetKeyDown(KeyCode.Q) && SheildAmount > 0 && Time.time > NextSheild)
 			{
+				NextSheild = Time.time + SheildRate;
 				SheildAmount -= 1;
 				UseSheild ();
 			}
@@ -28,6 +33,7 @@ public class BlueSheild : MonoBehaviour
 	void UseSheild ()
 	{
 		Instantiate (Sheild,SheildSpawn.position,SheildSpawn.rotation);
+		//Instantiate (transform.parent = this.transform);
 	}
 
 }
