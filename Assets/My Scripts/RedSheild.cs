@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlueSheild : MonoBehaviour 
+public class RedSheild : MonoBehaviour 
 {
 	public GameObject Sheild;
 
@@ -21,12 +21,12 @@ public class BlueSheild : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown(KeyCode.LeftShift) && SheildAmount > 0 && Time.time > NextSheild)
-			{
-				NextSheild = Time.time + SheildRate;
-				SheildAmount -= 1;
-				UseSheild ();
-			}
+		if (Input.GetKeyDown(KeyCode.RightAlt) && SheildAmount > 0 && Time.time > NextSheild)
+		{
+			NextSheild = Time.time + SheildRate;
+			SheildAmount -= 1;
+			UseSheild ();
+		}
 		return;
 	}
 

@@ -79,14 +79,17 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
+'Assets/MovementScript.cs'
 'Assets/My Scripts/BlueSheild.cs'
 'Assets/My Scripts/BulletDieBlue.cs'
 'Assets/My Scripts/BulletDieRed.cs'
 'Assets/My Scripts/CubeMovement.cs'
 'Assets/My Scripts/KillBlueSheild.cs'
+'Assets/My Scripts/KillRedSheild.cs'
 'Assets/My Scripts/Movement.cs'
 'Assets/My Scripts/MovementBlue.cs'
 'Assets/My Scripts/MovementRed.cs'
+'Assets/My Scripts/RedSheild.cs'
 'Assets/My Scripts/ResetLevel.cs'
 'Assets/My Scripts/ShootingBlue.cs'
 'Assets/My Scripts/ShootingRed.cs'

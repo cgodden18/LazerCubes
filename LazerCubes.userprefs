@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/BulletDieRed.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/KillRedSheild.cs">
     <Files>
-      <File FileName="Assets/My Scripts/MovementBlue.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/ShootingBlue.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/BlueSheild.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/KillBlueSheild.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/BulletDieRed.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/KillBlueSheild.cs" Line="7" Column="26" />
+      <File FileName="Assets/My Scripts/BlueSheild.cs" Line="19" Column="21" />
+      <File FileName="Assets/My Scripts/ShootingBlue.cs" Line="27" Column="97" />
+      <File FileName="Assets/KillRedSheild.cs" Line="8" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

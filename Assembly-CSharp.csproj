@@ -46,14 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MovementScript.cs" />
      <Compile Include="Assets\My Scripts\BlueSheild.cs" />
      <Compile Include="Assets\My Scripts\BulletDieBlue.cs" />
      <Compile Include="Assets\My Scripts\BulletDieRed.cs" />
      <Compile Include="Assets\My Scripts\CubeMovement.cs" />
      <Compile Include="Assets\My Scripts\KillBlueSheild.cs" />
+     <Compile Include="Assets\My Scripts\KillRedSheild.cs" />
      <Compile Include="Assets\My Scripts\Movement.cs" />
      <Compile Include="Assets\My Scripts\MovementBlue.cs" />
      <Compile Include="Assets\My Scripts\MovementRed.cs" />
+     <Compile Include="Assets\My Scripts\RedSheild.cs" />
      <Compile Include="Assets\My Scripts\ResetLevel.cs" />
      <Compile Include="Assets\My Scripts\ShootingBlue.cs" />
      <Compile Include="Assets\My Scripts\ShootingRed.cs" />

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KillBlueSheild : MonoBehaviour {
+public class KillRedSheild : MonoBehaviour {
 
 	public float SheildLife;
 
