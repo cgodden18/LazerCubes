@@ -13,7 +13,7 @@ public class BulletDieRed : MonoBehaviour
 		{
 			return;
 		}
-		Instantiate (Hit);
+		//Instantiate (Hit);
 		Destroy(other.gameObject);
 		Destroy(gameObject);
 		Instantiate(explosion, other.transform.position,other.transform.rotation);
