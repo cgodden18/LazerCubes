@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MovementScript.cs" />
+     <Compile Include="Assets\My Scripts\BlueScore.cs" />
      <Compile Include="Assets\My Scripts\BlueSheild.cs" />
      <Compile Include="Assets\My Scripts\BulletDieBlue.cs" />
      <Compile Include="Assets\My Scripts\BulletDieRed.cs" />
@@ -56,10 +57,20 @@
      <Compile Include="Assets\My Scripts\Movement.cs" />
      <Compile Include="Assets\My Scripts\MovementBlue.cs" />
      <Compile Include="Assets\My Scripts\MovementRed.cs" />
+     <Compile Include="Assets\My Scripts\RedScore.cs" />
      <Compile Include="Assets\My Scripts\RedSheild.cs" />
      <Compile Include="Assets\My Scripts\ResetLevel.cs" />
      <Compile Include="Assets\My Scripts\ShootingBlue.cs" />
      <Compile Include="Assets\My Scripts\ShootingRed.cs" />
+     <Compile Include="Assets\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\ButtonSounds.cs" />
+     <Compile Include="Assets\Scripts\DisplaySliderValue.cs" />
+     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Scripts\LoadingScreenManager.cs" />
+     <Compile Include="Assets\Scripts\SelectOnInput.cs" />
+     <Compile Include="Assets\Scripts\SelectOnStart.cs" />
+     <Compile Include="Assets\Scripts\Selector_Controller.cs" />
+     <None Include="Assets\Scripts\glitch.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

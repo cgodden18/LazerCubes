@@ -3,7 +3,9 @@ using System.Collections;
 
 public class BulletDieBlue : MonoBehaviour
 {
-	public GameObject explosion;
+	public GameObject explosion;	
+
+	public Transform BoomSpawn;
 
 	void OnTriggerEnter(Collider other) 
 	{
@@ -11,8 +13,8 @@ public class BulletDieBlue : MonoBehaviour
 		{
 			return;
 		}
-		Destroy(other.gameObject);
+		//Destroy(other.gameObject);
 		Destroy(gameObject);
-		Instantiate(explosion, other.transform.position,other.transform.rotation);
+		Instantiate(explosion, BoomSpawn.position,other.transform.rotation);
 	}
 }

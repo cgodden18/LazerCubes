@@ -5,7 +5,7 @@ public class BulletDieRed : MonoBehaviour
 {
 	public GameObject explosion;
 
-	public AudioClip Hit;
+	public Transform BoomSpawn;
 
 	void OnTriggerEnter(Collider other) 
 	{
@@ -13,9 +13,8 @@ public class BulletDieRed : MonoBehaviour
 		{
 			return;
 		}
-		//Instantiate (Hit);
-		Destroy(other.gameObject);
+		//Destroy(other.gameObject);
 		Destroy(gameObject);
-		Instantiate(explosion, other.transform.position,other.transform.rotation);
+		Instantiate(explosion, BoomSpawn.position,other.transform.rotation);
 	}
 }

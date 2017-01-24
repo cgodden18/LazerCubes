@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class ButtonController : MonoBehaviour {
 
 	public void StartGame() {
 		Debug.Log("starting");
-		LoadingScreenManager.LoadScene (1);
+		LoadingScreenManager.LoadScene (2);
 	}
 	public void OpenOptionsMenu() {
 		Debug.Log ("opening options menu");

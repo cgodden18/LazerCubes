@@ -9,7 +9,7 @@ public class KillBlueSheild : MonoBehaviour {
 
 	void Start ()
 	{
-		SheildLife = 5;
+		SheildLife = 1.5f;
 	}
 
 	void Update () 
