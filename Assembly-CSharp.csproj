@@ -57,11 +57,14 @@
      <Compile Include="Assets\My Scripts\Movement.cs" />
      <Compile Include="Assets\My Scripts\MovementBlue.cs" />
      <Compile Include="Assets\My Scripts\MovementRed.cs" />
+     <Compile Include="Assets\My Scripts\MovementRedController.cs" />
      <Compile Include="Assets\My Scripts\RedScore.cs" />
      <Compile Include="Assets\My Scripts\RedSheild.cs" />
+     <Compile Include="Assets\My Scripts\RedShieldController.cs" />
      <Compile Include="Assets\My Scripts\ResetLevel.cs" />
      <Compile Include="Assets\My Scripts\ShootingBlue.cs" />
      <Compile Include="Assets\My Scripts\ShootingRed.cs" />
+     <Compile Include="Assets\My Scripts\ShootingRedController.cs" />
      <Compile Include="Assets\Scripts\ButtonController.cs" />
      <Compile Include="Assets\Scripts\ButtonSounds.cs" />
      <Compile Include="Assets\Scripts\DisplaySliderValue.cs" />
