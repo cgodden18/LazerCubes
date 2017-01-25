@@ -21,7 +21,7 @@ public class RedShieldController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButtonDown("JoyStick1Fire2") && SheildAmount > 0 && Time.time > NextSheild)
+		if (Input.GetButton("RedJoyStick1Fire2") && SheildAmount > 0 && Time.time > NextSheild)
 		{
 			NextSheild = Time.time + SheildRate;
 			SheildAmount -= 1;

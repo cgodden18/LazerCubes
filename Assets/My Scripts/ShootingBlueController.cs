@@ -33,7 +33,7 @@ public class ShootingBlueController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButtonDown("JoyStick2Fire1") && Time.time > nextFire)
+		if (Input.GetButton("BlueJoyStick2Fire1") && Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
 			Fire ();

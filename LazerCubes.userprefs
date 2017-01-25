@@ -1,19 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/BlueShieldController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/ShootingBlueController.cs">
     <Files>
-      <File FileName="Assets/My Scripts/BlueShieldController.cs" Line="24" Column="1" />
-      <File FileName="Assets/My Scripts/RedSheild.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/BlueSheild.cs" Line="22" Column="16" />
-      <File FileName="Assets/My Scripts/ShootingRed.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/ShootingBlue.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/ShootingRedController.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/ShootingBlueController.cs" Line="36" Column="37" />
-      <File FileName="Assets/My Scripts/MovementRed.cs" Line="31" Column="1" />
-      <File FileName="Assets/My Scripts/MovementBlue.cs" Line="5" Column="2" />
-      <File FileName="Assets/My Scripts/MovementRedController.cs" Line="7" Column="2" />
-      <File FileName="Assets/My Scripts/RedShieldController.cs" Line="7" Column="1" />
-      <File FileName="Assets/My Scripts/MovementBlueController.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/RedShieldController.cs" Line="24" Column="27" />
+      <File FileName="Assets/My Scripts/BlueShieldController.cs" Line="24" Column="28" />
+      <File FileName="Assets/My Scripts/ShootingRedController.cs" Line="36" Column="27" />
+      <File FileName="Assets/My Scripts/ShootingBlueController.cs" Line="36" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

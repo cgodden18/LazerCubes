@@ -21,7 +21,7 @@ public class BlueShieldController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButtonDown("JoyStick2Fire2") && SheildAmount > 0 && Time.time > NextSheild)
+		if (Input.GetButton("BlueJoyStick2Fire2") && SheildAmount > 0 && Time.time > NextSheild)
 		{
 			NextSheild = Time.time + SheildRate;
 			SheildAmount -= 1;
