@@ -49,6 +49,7 @@
      <Compile Include="Assets\MovementScript.cs" />
      <Compile Include="Assets\My Scripts\BlueScore.cs" />
      <Compile Include="Assets\My Scripts\BlueSheild.cs" />
+     <Compile Include="Assets\My Scripts\BlueShieldController.cs" />
      <Compile Include="Assets\My Scripts\BulletDieBlue.cs" />
      <Compile Include="Assets\My Scripts\BulletDieRed.cs" />
      <Compile Include="Assets\My Scripts\CubeMovement.cs" />
@@ -56,6 +57,7 @@
      <Compile Include="Assets\My Scripts\KillRedSheild.cs" />
      <Compile Include="Assets\My Scripts\Movement.cs" />
      <Compile Include="Assets\My Scripts\MovementBlue.cs" />
+     <Compile Include="Assets\My Scripts\MovementBlueController.cs" />
      <Compile Include="Assets\My Scripts\MovementRed.cs" />
      <Compile Include="Assets\My Scripts\MovementRedController.cs" />
      <Compile Include="Assets\My Scripts\RedScore.cs" />
@@ -63,6 +65,7 @@
      <Compile Include="Assets\My Scripts\RedShieldController.cs" />
      <Compile Include="Assets\My Scripts\ResetLevel.cs" />
      <Compile Include="Assets\My Scripts\ShootingBlue.cs" />
+     <Compile Include="Assets\My Scripts\ShootingBlueController.cs" />
      <Compile Include="Assets\My Scripts\ShootingRed.cs" />
      <Compile Include="Assets\My Scripts\ShootingRedController.cs" />
      <Compile Include="Assets\Scripts\ButtonController.cs" />
