@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Rewired;
+
+
 
 public class ShootingBlueController : MonoBehaviour {
+	public int playerId = 1;
 
+	private Player player;
 
 	public GameObject bulletPrefab;
 
@@ -17,9 +22,10 @@ public class ShootingBlueController : MonoBehaviour {
 
 	public float BulletLife;
 
-	void Start () 
-	{
 
+	void Awake ()
+	{
+		player = ReInput.players.GetPlayer(playerId);
 	}
 
 	void Fire ()
@@ -33,7 +39,7 @@ public class ShootingBlueController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButton("BlueJoyStick2Fire1") && Time.time > nextFire)
+		if (player.GetButton(0) && Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
 			Fire ();

@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Rewired;
 public class ShootingRedController : MonoBehaviour
 {
+		public int playerId = 0;
+
+		private Player player;
 
 		public GameObject bulletPrefab;
 
@@ -17,10 +20,10 @@ public class ShootingRedController : MonoBehaviour
 
 		public float BulletLife;
 
-		void Start () 
-		{
-
-		}
+	void Awake ()
+	{
+		player = ReInput.players.GetPlayer(playerId);
+	}
 
 		void Fire ()
 		{
@@ -33,7 +36,7 @@ public class ShootingRedController : MonoBehaviour
 
 		void Update ()
 		{
-		if (Input.GetButton("RedJoyStick1Fire1") && Time.time > nextFire)
+		if (player.GetButton(0) && Time.time > nextFire)
 			{
 				nextFire = Time.time + fireRate;
 				Fire ();

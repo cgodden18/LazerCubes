@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Rewired;
 public class BlueShieldController : MonoBehaviour {
+
+	public int playerId = 1;
+
+	private Player player;
 
 	public GameObject Sheild;
 
@@ -21,7 +25,7 @@ public class BlueShieldController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButton("BlueJoyStick2Fire2") && SheildAmount > 0 && Time.time > NextSheild)
+		if (player.GetButton(1) && SheildAmount > 0 && Time.time > NextSheild)
 		{
 			NextSheild = Time.time + SheildRate;
 			SheildAmount -= 1;

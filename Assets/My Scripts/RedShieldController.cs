@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Rewired;
 public class RedShieldController : MonoBehaviour {
+
+	public int playerId = 0;
+
+	private Player player;
 
 	public GameObject Sheild;
 
@@ -21,7 +25,7 @@ public class RedShieldController : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetButton("RedJoyStick1Fire2") && SheildAmount > 0 && Time.time > NextSheild)
+		if (player.GetButton(1) && SheildAmount > 0 && Time.time > NextSheild)
 		{
 			NextSheild = Time.time + SheildRate;
 			SheildAmount -= 1;
