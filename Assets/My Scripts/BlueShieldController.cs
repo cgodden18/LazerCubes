@@ -23,6 +23,11 @@ public class BlueShieldController : MonoBehaviour {
 		SheildAmount = 10;
 	}
 
+	void Awake ()
+	{
+		player = ReInput.players.GetPlayer(playerId);
+	}
+
 	void Update ()
 	{
 		if (player.GetButton(1) && SheildAmount > 0 && Time.time > NextSheild)

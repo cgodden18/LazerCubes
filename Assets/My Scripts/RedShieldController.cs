@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Rewired;
-public class RedShieldController : MonoBehaviour {
+
+public class RedShieldController : MonoBehaviour
+{
 
 	public int playerId = 0;
 
@@ -21,6 +23,11 @@ public class RedShieldController : MonoBehaviour {
 	void Start ()
 	{
 		SheildAmount = 10;
+	}
+
+	void Awake ()
+	{
+		player = ReInput.players.GetPlayer(playerId);
 	}
 
 	void Update ()
