@@ -1,4 +1,5 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
+<<<<<<< Updated upstream
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/RedShieldController.cs">
     <Files>
@@ -6,6 +7,19 @@
       <File FileName="Assets/My Scripts/ShootingRedController.cs" Line="26" Column="3" />
       <File FileName="Assets/My Scripts/ShootingBlueController.cs" Line="42" Column="25" />
       <File FileName="Assets/My Scripts/BlueShieldController.cs" Line="29" Column="3" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/KillRedSheild.cs">
+    <Files>
+      <File FileName="Assets/My Scripts/KillBlueSheild.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/BulletDieBlue.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LoadSceneOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ButtonController.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/SelectOnStart.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Selector_Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LoadingScreenManager.cs" Line="30" Column="2" />
+      <File FileName="Assets/My Scripts/KillRedSheild.cs" Line="1" Column="1" />
+>>>>>>> Stashed changes
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
